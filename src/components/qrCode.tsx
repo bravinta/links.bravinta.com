@@ -2,7 +2,7 @@ import QR from "react-qr-code";
 
 export const QRCode = () => {
   return (
-    <div className="w-40 overflow-hidden rounded-lg">
+    <div className="w-40 overflow-hidden rounded-lg mb-14">
       <QR
         size={256}
         level="H"
